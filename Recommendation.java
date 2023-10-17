@@ -118,3 +118,11 @@ public class Recommendation
 
 
 }
+
+/** ratio is dislikes > likes **/
+public void isRatioed(boolean _isRatioed){
+  isRatio = _isRatio;
+}
+  
+  
+  
