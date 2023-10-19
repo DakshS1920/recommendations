@@ -114,15 +114,21 @@ public class Recommendation
   
   public void setHasImage(boolean _hasImage){
     hasImage = _hasImage;
+  
   }
-
-
-}
-
-/** ratio is dislikes > likes **/
+  /** ratio is dislikes > likes **/
 public void isRatioed(boolean _isRatioed){
-  isRatio = _isRatio;
+  if (likes > dislikes) {
+  return false
+    }
+  return true
+
 }
   
+
+
+}
+
+
   
   
